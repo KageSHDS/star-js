@@ -1,0 +1,106 @@
+/* база */
+body{
+ background-color: rgb(56, 55, 55);
+ color: aliceblue;
+ font-size: 16px;
+ line-height: 130%;
+ font-weight: 400px;
+}
+.container{
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 15px;
+}
+
+/* 
+.button_name, .button_gradus{
+    height: 100px;
+    width: 100px;
+} */
+
+
+/* say_my_name */
+
+.say_my_name, .gradus, 
+.fall, .average, .string{
+    padding: 20px 0 20px;
+}
+
+.say_my_name_inner, .gradus_inner, 
+.fall_inner, .average_inner, 
+.string_inner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.say_my_name_text, 
+.gradus_text, .fall_text, 
+.average_text, .string_text{
+    padding-bottom: 15px;
+    align-self: center;
+    font-size: 18px;
+    color: #ebca12
+}
+
+
+.gradus_content, .say_my_name_content, 
+.fall_content{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_gradus, .button_name, 
+.button_fall, .average_button, 
+.string_button{
+    margin-top: 10px;
+    height: 70px;
+    width: 150px;
+    /* border-radius: 10px ; */
+    background-color: #252525;
+    color: #ebca12;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 5px;
+    transition: all .5s;
+    border: 1px solid transparent;
+    display: inline-block;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.value{
+    background-color: #252525;
+    color: #ebca12;
+    border-radius: 22px;
+}
+
+.area{
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    background-color: #252525;
+    color: #ebca12;
+    border-radius: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+    resize: none;
+}
+
+.button:hover{
+    color:#ebca12;
+    background-color: #FEFEFE;
+    border: 1px solid #ebca12;
+}
+
+.average_content, .string_content{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.average_item, .string_item{
+    display: flex;
+}
+

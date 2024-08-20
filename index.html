@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<main class="main">
+			<section class="say_my_name">
+				<div class="container">
+					<div class="say_my_name_inner">
+						<div class="say_my_name_content">
+							<div class="say_my_name_text">
+								Хочешь узнать как зовут великого разработчика?
+							</div>
+							<button class="button_name button" onclick="greet(); this.onclick=null;">
+								Узнать человека
+							</button>
+						</div>
+						<textarea class="area" id="name1"></textarea>
+					</div>
+				</div>
+			</section>
+			<section class="gradus">
+				<div class="container">
+					<div class="gradus_inner">
+						<div class="gradus_content">
+							<div class="gradus_text">
+								Введи число градусов Цельсия, а я переведу в Фаренгейты  
+							</div>
+							<input class="gradus_value value" id="gradus_value" type="number" />
+							<button class="button_gradus button" onclick="celsiusToFahrenheit()">
+								Я перевожу
+							</button>
+						</div>
+						<textarea class="area" id="text2"></textarea>
+					</div>
+				</div>
+			</section>
+			<section class="fall">
+				<div class="container">
+					<div class="fall_inner">
+						<div class="fall_content">
+							<div class="fall_text">
+								Я узнаю пройденное расстояние объекта за любое время 
+							</div>
+							<input class="fall_value value" id="fall_value" type="number" />
+							<button class="button_fall button" onclick="calculateFallDistance()">
+								Узнать расстояние (бесплатно) 
+							</button>
+						</div>
+						<textarea class="area" id="text3"></textarea>
+					</div>
+				</div>
+			</section>
+			<section class="average">
+				<div class="container">
+					<div class="average_inner">
+						<div class="average_content">
+							<div class="average_text">
+								Друг, назови мне три числа и я скажу их среднее значение 
+							</div>
+                            <div class="average_item">
+							    <input class="average_value1 value" id="average_value1" type="number" />
+							    <input class="average_value2 value" id="average_value2" type="number" />
+							    <input class="average_value3 value" id="average_value3" type="number" />
+                            </div>
+							<button class="average_button button" onclick="calculateAverage()">
+								Проходят мыслительные процессы 
+							</button>
+						</div>
+						<textarea class="area" id="text4"></textarea>
+					</div>
+				</div>
+			</section>
+			<section class="string">
+				<div class="container">
+                    <div class="string_inner">
+                        <div class="string_content">  
+					        <div class="string_text">Одолжите  два словечка</div>
+                            <div class="string_item">
+					            <input class="string_value1 value" id="string_value1" type="text" />
+					            <input class="string_value2 value" id="string_value2" type="text" />
+                            </div>
+					        <button class="string_button button" onclick="concatStrings()">Спасибо</button>
+                        </div>
+					    <textarea class="area" id="text5"></textarea>
+                    </div>
+				</div>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
